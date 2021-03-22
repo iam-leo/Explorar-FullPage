@@ -722,7 +722,45 @@ footer{
 }
 
 @media only screen and (max-width: 600px){
+    header{
+        padding: 0 50px;
+        width: 100%;
+    }
+
+    /* ---- -- Centro Header -- ----*/
+    .centro-header .header-texto h1{
+        font-size: 66px;
+        text-align: left;
+    }
+
+    /* ---- -- Contenido Ciudades -- ----*/
     .contenedor-ciudades{
         padding: 0;
     }
+
+    /* ---- -- Contenido segunda seccion ciudades -- ----*/
+    .ciudad-info{
+        padding: 0 20px;
+    }
+
+    /* ---- -- Contenido Servicios -- ----*/
+    .contenido-servicios{
+        padding: 0 20px;
+    }
+
+    .servicio-titulo h1 {
+        text-align: start;
+        font-size: 35px;
+    }
+
+    .servicio-titulo h1::after{
+        bottom: -7px;
+        right: 85px;
+    }
+
+    /* ---- -- FOOTER -- ----*/
+    footer{
+        padding: 30px 60px;
+    }
+    
 }
